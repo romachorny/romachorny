@@ -1,113 +1,55 @@
-# Roman Chorny — GenVidPro
+# Roman Chorny · GenVidPro
 
-**AI video production and small web products, built end to end by one person running an agent stack.**
+**AI implementation, agents, creative technology and video production. One person, one agent stack, real things shipped.**
+
 Petah Tikva, Israel · Hebrew, Russian, English · [genvidpro.com](https://genvidpro.com)
+
+For years I had ideas and no way to build them. With Claude they turned into working products: I see the finished thing, make every product and creative decision, and the agents write and test the code. Everything below runs in production.
 
 ---
 
-## What I build
+## What I work on
 
-**1. Ad films that cannot be shot**
-Product and brand films generated frame by frame: Veo / Flow, Higgsfield, Nano Banana, ElevenLabs voice, assembled and graded in ffmpeg. Vertical and cinematic, Hebrew and English.
-→ [Selected work](https://genvidpro.com/work)
-
-**2. App without the store (PWA)**
-A website that installs on the phone like a native app. No App Store, no review queue, no 30 percent cut. Offline cache, push, home screen icon, optional WebAR layer.
-→ [genvidpro.com/app](https://genvidpro.com/app)
-
-**3. Orders in WhatsApp (automation)**
-A bot that answers in seconds around the clock, takes the order, prices it, forwards it to the kitchen and the courier and logs every order in one table. Hebrew, Russian, English, Arabic.
+**AI implementation for small business**
+WhatsApp agents that answer in seconds, take the order, price it and log it in one table. Hebrew, Russian, English, Arabic. Tested against my own acceptance protocol before a client ever sees them.
 → [genvidpro.com/automation](https://genvidpro.com/automation)
 
-**4. Site builder**
-A template engine that turns a brief into a working one page site in minutes, in the client's own colors and language, RTL included.
-→ [site-builder](https://github.com/romachorny/site-builder)
+**Agents and automation**
+Roma OS, my own control room: scheduled Claude agents on a 24/7 server, MCP connectors, n8n workflows and a Telegram bot that takes voice commands and turns them into actions.
+→ [roma-os](https://github.com/romachorny/roma-os)
 
-**5. Living science and living paintings**
-Two house series: microscopic and cosmic phenomena, and classical paintings brought into motion. Built on real references, PubMed and PDB structures rather than invention.
+**Creative technology**
+Living paintings and living science: classical paintings brought into motion under strict museum rules, microscopic and cosmic phenomena built on real references. Plus sites that install like apps (PWA, WebAR) and a template engine that builds a one page site from a brief.
+→ [genvidpro-site](https://github.com/romachorny/genvidpro-site) · [site-builder](https://github.com/romachorny/site-builder) · [site-assistant](https://github.com/romachorny/site-assistant)
 
-**6. Roma OS — my own automation**
-Scheduled agents that watch Upwork, Fiverr, XPlace, Behance, LinkedIn and mail, filter real paid work from noise and push it into one Telegram control room with a ready reply attached. Voice in, action out.
+**Video production**
+Ad films that cannot be shot, generated frame by frame and accepted by numbers, not by eye.
+→ [Selected work](https://genvidpro.com/work)
+
+---
+
+## Claude skills
+
+I pack every process that works into an Agent Skill and share the ones that are useful beyond my studio.
+
+→ **[claude-skills](https://github.com/romachorny/claude-skills)**: living paintings, frame-by-frame video QA with a script, outreach that sounds human (with a Hebrew RTL fix), browser etiquette for agents that use real accounts, task handoff between Claude Code sessions.
+
+---
+
+## Stack
+
+- **Agents:** Claude Code, Claude Cowork, MCP, n8n, GitHub Actions, Telegram Bot API, WhatsApp Cloud API
+- **Video:** Veo / Google Flow, Higgsfield, Nano Banana, ffmpeg, ElevenLabs
+- **Web:** vanilla JS, PWA, service workers, Cloudflare Pages, Vercel, RTL and 12 languages
 
 ---
 
 ## How this is built
 
-Every idea, product decision and creative direction here is mine. The code is written in pair with Claude: I design, decide and review, the agent types and tests. I build with an agent stack and I say so plainly, because the result is what ships, and it ships faster this way.
+Ideas, product decisions and creative direction are mine. The code is written together with Claude: I design, decide and review, the agent types and tests. I say it plainly because what matters is what ships.
 
 ---
 
-## Stack
+## Contact
 
-Video: Veo / Google Flow, Higgsfield, Nano Banana, ffmpeg, ElevenLabs
-Web: vanilla JS, HTML, CSS, PWA, service workers, Cloudflare Pages, Vercel
-Automation: Claude agents, MCP connectors, Telegram Bot API, GitHub Actions, n8n
-Languages of delivery: Hebrew, Russian, English
-
----
-
-## Work with me
-
-Films, PWAs and WhatsApp automation for brands and small business.
 [genvidpro.com](https://genvidpro.com) · [LinkedIn](https://www.linkedin.com/in/genvidpro) · genvidpro@gmail.com
-# Roman Chorny — GenVidPro
-
-**AI video production and small web products, built end to end by one person running an agent stack.**
-Petah Tikva, Israel · Hebrew, Russian, English · [genvidpro.com](https://genvidpro.com)
-
----
-
-## What I build
-
-**1. Ad films that cannot be shot**
-Product and brand films generated frame by frame: Veo / Flow, Higgsfield, Nano Banana, ElevenLabs voice, assembled and graded in ffmpeg. Vertical and cinematic, Hebrew and English.
-→ [Selected work](https://genvidpro.com/work)
-
-**2. App without the store (PWA)**
-A website that installs on the phone like a native app. No App Store, no review queue, no 30 percent cut. Offline cache, push, home screen icon, optional WebAR layer.
-→ [genvidpro.com/app](https://genvidpro.com/app)
-
-**3. Orders in WhatsApp (automation)**
-A bot that answers in seconds around the clock, takes the order, prices it, forwards it to the kitchen and the courier and logs every order in one table. Hebrew, Russian, English, Arabic.
-→ [genvidpro.com/automation](https://genvidpro.com/automation)
-
-**4. Site builder**
-A template engine that turns a brief into a working one page site in minutes, in the client's own colors and language, RTL included.
-
-**5. Living science and living paintings**
-Two house series: microscopic and cosmic phenomena, and classical paintings brought into motion. Built on real references, PubMed and PDB structures rather than invention.
-
-**6. Roma OS — my own automation**
-Scheduled agents that watch Upwork, Fiverr, XPlace, Behance, LinkedIn and mail, filter real paid work from noise and push it into one Telegram control room with a ready reply attached. Voice in, action out.
-
----
-
-## Stack
-
-Video: Veo / Google Flow, Higgsfield, Nano Banana, ffmpeg, ElevenLabs
-Web: vanilla JS, HTML, CSS, PWA, service workers, Cloudflare Pages, Vercel
-Automation: Claude agents, MCP connectors, Telegram Bot API, GitHub Actions, n8n
-Languages of delivery: Hebrew, Russian, English
-
----
-
-## Work with me
-
-Films, PWAs and WhatsApp automation for brands and small business.
-[genvidpro.com](https://genvidpro.com) · [LinkedIn](https://www.linkedin.com/in/genvidpro) · genvidpro@gmail.com
-## Hi there 👋
-
-<!--
-**romachorny/romachorny** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
