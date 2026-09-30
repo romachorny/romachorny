@@ -36,6 +36,35 @@ I pack every process that works into an Agent Skill and share the ones that are 
 
 ---
 
+## Built on Base44
+
+Three apps built on [Base44](https://base44.com) — the same way as everything else here: I decide what it is and how it behaves, the agent writes it. Live links go to the running apps; repo links go to the source.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="https://brilliant-plan-shot-flow.base44.app"><img src="https://raw.githubusercontent.com/romachorny/call-sheet/main/docs/screenshot.png" width="260" alt="CALL SHEET"></a><br>
+<b>CALL SHEET</b><br>
+Production planning for video crews: shoot days, schedule, crew and shot list on one printable page.<br>
+<a href="https://brilliant-plan-shot-flow.base44.app">Live</a> · <a href="https://github.com/romachorny/call-sheet">Repo</a>
+</td>
+<td width="33%" valign="top">
+<a href="https://tachana-wine-nights.base44.app"><img src="https://raw.githubusercontent.com/romachorny/tachana-site/main/docs/screenshot.png" width="260" alt="TACHANA"></a><br>
+<b>TACHANA · תחנה</b><br>
+Bilingual Hebrew/English concept site for a Tel Aviv natural wine bar: live menu, WhatsApp booking, events.<br>
+<a href="https://tachana-wine-nights.base44.app">Live</a> · <a href="https://github.com/romachorny/tachana-site">Repo</a>
+</td>
+<td width="33%" valign="top">
+<a href="https://looks-live-site.base44.app"><img src="https://raw.githubusercontent.com/romachorny/looks-gallery/main/docs/screenshot.png" width="260" alt="LOOKS"></a><br>
+<b>LOOKS</b><br>
+Type your business name, pick a colour, watch twelve high-motion website templates wear your brand live.<br>
+<a href="https://looks-live-site.base44.app">Live</a> · <a href="https://github.com/romachorny/looks-gallery">Repo</a>
+</td>
+</tr>
+</table>
+
+---
+
 ## Stack
 
 - **Agents:** Claude Code, Claude Cowork, MCP, n8n, GitHub Actions, Telegram Bot API, WhatsApp Cloud API
