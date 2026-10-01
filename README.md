@@ -8,6 +8,19 @@ For years I had ideas and no way to build them. With Claude they turned into wor
 
 ---
 
+## GVPro
+
+**Type your business name, try its working app on the phone in front of you, order it.**
+Live: **[gvpro.base44.app](https://gvpro.base44.app)**
+
+<a href="https://github.com/romachorny/gvpro-base44/releases/download/gvpro-film/gvpro-he-16x9-r2.mp4"><img src="https://raw.githubusercontent.com/romachorny/gvpro-base44/main/docs/film-he-16x9-poster.jpg" width="640" alt="GVPro film, Hebrew, 16:9"></a>
+
+33 seconds, Hebrew and English, wide and vertical. Source and manifest: **[gvpro-base44](https://github.com/romachorny/gvpro-base44)**
+
+Earlier Base44 builds: [CALL SHEET](https://brilliant-plan-shot-flow.base44.app), [TACHANA](https://tachana-wine-nights.base44.app), [LOOKS](https://looks-live-site.base44.app).
+
+---
+
 ## What I work on
 
 **AI implementation for small business**
